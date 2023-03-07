@@ -1,0 +1,16 @@
+{
+    "name": "Skip Youtube Ads",
+    "version": "1.0.0",
+    "description": "Skip Youtube Ads painlessly",
+    "manifest_version": 3,
+    "author": "Nguyen Trung Duc",
+    "content_scripts": [
+        {
+          "matches": ["https://*.youtube.com/*"],
+          "js": ["script.js"]
+        }
+    ],
+    "action":{
+        "default_title": "Skip Youtube Ads"
+    }
+}
